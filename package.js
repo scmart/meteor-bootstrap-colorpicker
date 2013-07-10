@@ -3,9 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.add_files([
-    	'lib/bootstrap-colorpicker/js/bootstrap-colorpicker.js',
-    	'lib/bootstrap-colorpicker/css/bootstrap-colorpicker.css',
-    	'path-override.css'
-    ], ['client']);
+    api.add_files('lib/bootstrap-colorpicker/js/bootstrap-colorpicker.js', 'client');
+	api.add_files('lib/bootstrap-colorpicker/css/bootstrap-colorpicker.css', 'client');
+	api.add_files('path-override.css', 'client');
 });
