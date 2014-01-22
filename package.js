@@ -4,9 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
     api.add_files([
-        "lib/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js",
         "lib/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js",
-        "lib/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css",
         "lib/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css",
         "lib/bootstrap-colorpicker/dist/img/bootstrap-colorpicker/alpha.png",
         "lib/bootstrap-colorpicker/dist/img/bootstrap-colorpicker/alpha-horizontal.png",
