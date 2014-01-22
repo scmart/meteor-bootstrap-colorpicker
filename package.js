@@ -15,5 +15,5 @@ Package.on_use(function (api) {
         "lib/bootstrap-colorpicker/dist/img/bootstrap-colorpicker/saturation.png"
     ], "client");
 
-    //api.add_files('path-override.css', 'client');
+    api.add_files('path-override.css', 'client');
 });
