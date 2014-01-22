@@ -3,6 +3,6 @@
     "description": "Bootstrap Colorpicker 2 packaged for meteor",
     "homepage": "https://github.com/scmart/meteor-bootstrap-colorpicker",
     "author": "Nate Strauser, Sedric Mart",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "git": "https://github.com/scmart/meteor-bootstrap-colorpicker.git"
 }
